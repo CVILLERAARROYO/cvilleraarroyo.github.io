@@ -1,0 +1,66 @@
+body{
+	font-family: Roboto;
+	overflow-x:hidden;
+}
+.img-logo{
+	max-width: 400px;
+	max-height: 300px;
+}
+.card{
+	margin-top: 10px;
+}
+.btn-card{
+	align-content: center;
+	text-align: center;
+	margin: 15px;
+	margin-left: 100px;
+}
+.formulario{
+	background: #F5F5F5;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+}
+.tarjetas{
+	margin-top: 80px;
+}
+.navbar{
+	background: #009688;
+}
+#nav{
+	padding: 25px;
+}
+.footer-page{
+	background: #607D8B;
+	color: #FFFFFF;
+	padding: 35px;
+	text-align: center;
+	align-content: center;
+}
+#tittle-footer{
+	margin-top: -20px;
+	text-shadow: 2px -2px 2px #aaa;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.fa-facebook { background: #3F51B5; color: white; border-radius: 50% }
+.fa-twitter { background: #55ACEE; color: white; border-radius: 50% }
+.fa-google { background: #dd4b39;color: white; border-radius: 50% }
+.jumbotron { margin-top: 20px; }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 50px; color: orange; }
+.material-icons.md-48 { font-size: 48px; }
