@@ -3,10 +3,15 @@ html,body{
 	font-family: Roboto;
 	background: #F5F5F5;
 }
+
+#navbar{
+	padding: 25px;
+}
 .perfil{
 	background: #FF5722;
 	color: #ffffff;
-	padding: 200px
+	padding: 170px;
+	display: 100%;
 }
 .avatar{
 	max-width: 200px;
@@ -15,11 +20,21 @@ html,body{
 	border: solid white 2px;
 	margin: 0px;
 }
+.tarjetas{
+	padding: 40px;
+}
+.card{
+	margin:30px;
+}
 .proyectos{
 	background: #E0E0E0;
+	display: 100%;
 }
 .t-proyecto{
 	margin: 10px;
+}
+.contacto{
+	background: #ECEFF1;
 }
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
