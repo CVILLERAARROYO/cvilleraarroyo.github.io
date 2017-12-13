@@ -7,17 +7,18 @@ html,body{
   -webkit-transition: box-shadow 0.55s;
   transition: box-shadow 0.55s;
   box-shadow: 0; }
-  .sombra:hover {
-    -webkit-transition: box-shadow 0.45s;
-    transition: box-shadow 0.45s;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.sombra:hover {
+  -webkit-transition: box-shadow 0.45s;
+  transition: box-shadow 0.45s;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 #navbar{
 	padding: 25px;
 }
 .perfil{
 	background: #FF5722;
-	color: #ffffff;
+	color: #FFFFFF;
 	padding: 170px;
 	display: 100%;
 }
@@ -42,9 +43,35 @@ html,body{
 	margin: 10px;
 }
 .contacto{
-	background: #ECEFF1;
+	background: #03A9F4;
+	color: #FFFFFF
 }
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.titulo{
+	margin:15px;
+}
+.titulo:hover{
+	text-shadow: -2px 2px 2px;
+}
+}
+.mapa{
+	border-radius: 8%;
+}
+.material-icons.md-18 {
+	font-size: 18px;
+}
+.material-icons.md-24 {
+	font-size: 24px;
+}
+.material-icons.md-36
+{
+	font-size: 36px;
+}
+.datos{
+	margin:25px;
+}
+.iconos{
+	margin:15px;
+}
+.material-icons.md-big {
+font-size: 60px;
+}
