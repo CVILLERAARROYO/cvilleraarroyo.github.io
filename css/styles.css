@@ -67,11 +67,14 @@ html,body{
 	font-size: 36px;
 }
 .datos{
-	margin:25px;
+	margin:25px 25px 25px 0px;
 }
 .iconos{
-	margin:15px;
+	margin:15px 0px 15px 15px ;
+}
+.copy{
+	margin:10px 10px 10px 0px;
 }
 .material-icons.md-big {
-font-size: 60px;
+font-size: 50px;
 }
