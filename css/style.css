@@ -5,34 +5,6 @@
 .btn .fa {
     margin-left: 3px;
 }
-        .top-nav-collapse {
-            background-color: #2BBBAD !important;
-        }
-        .navbar:not(.top-nav-collapse) {
-            background: transparent !important;
-        }
-        @media (max-width: 768px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #2BBBAD !important;
-            }
-        }
-        h6 {
-            line-height: 1.7;
-        }
-        @media (max-width: 450px) {
-            .margins {
-                margin-right: 1rem;
-                margin-left: 1rem;
-            }
-        }
-        @media (max-width: 740px) {
-            .full-height,
-            .full-height body,
-            .full-height header,
-            .full-height header .view {
-                height: 1040px;
-            }
-        }
 .avatar{
     max-width: 200px;
     max-height: 200px;
@@ -47,3 +19,13 @@ hr{
     width: 250px;
     margin-top:-10px;
 }
+.fa-hashtag{
+    size: 50px;
+}
+.tarjeta{
+    background: #F5F5F5;
+}
+.material-icons.md-18 { font-size: 18px; color:#00695c; }
+.material-icons.md-24 { font-size: 24px; color:#00695c; }
+.material-icons.md-36 { font-size: 36px; color:#00695c; }
+.material-icons.md-48 { font-size: 48px; color:#00695c; }
