@@ -1,8 +1,8 @@
 html,body{
     font-family: Roboto;
 }
-.perfil {
-    background: #2BBBAD;
+.perfil{
+    background-image: url('../img/bg-2.jpg');
     background-size: cover;
 }
 .fa{
@@ -20,8 +20,6 @@ html,body{
 main{
     background: #EEEEEE;
 }
-.text-perfil{
-}
 hr{
     margin-top:-10px;
 }
@@ -30,7 +28,7 @@ hr{
 }
 .card{
     text-align: center;
-    margin: 5px;
+    margin: 20px;
 
 }
 .material-icons.md-18 { font-size: 18px; color:#00695c; }
