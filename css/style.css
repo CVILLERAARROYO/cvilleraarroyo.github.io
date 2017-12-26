@@ -23,10 +23,8 @@ html,body{
 	height:auto;
 }
 .imagengirar360:hover {
-	-webkit-transition:1.5s;
-	-webkit-transform:rotatey(180deg);
-	-moz-transition:1.5s;
-	-moz-transform:rotate(360deg);
+	-webkit-transition:3.0s;
+    -webkit-transform:rotateX(720deg);
 }
 main{
     background: #eeeeee;
