@@ -19,6 +19,9 @@
 </head>
 <!-- cuerpo de la pagina -->
 <body>
+<div id="contenedor">
+    <div id="cargar"></div>
+</div>
 <header class="row perfil">
     <div class="container">
         <div class="col-12 wow fadeInDown d-flex justify-content-center" data-wow-delay="0.4s">
@@ -158,6 +161,13 @@
         $('.wow').wow({
             interval: 20.000
         })
+    </script>
+    <script>
+        window.onload = function() {
+            var contenedor = document.getElementById('contenedor');
+        }
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.opacity = '0';
     </script>
 </body>
 </html>
