@@ -1,22 +1,18 @@
-/*
-Estilos page loader
-*/
+/*Estilos propios--Carlos Villera--Portafolio*/
+/*Estilos loader page */
 *,
 :after,
-:before{
+:before,{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background: #eeeeee; 
 }
 #contenedor{
     background: rgba(255, 255, 255, 0.99);
     height: 100%;
     width: 100%;
     position: fixed;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
     transition: all 1s;
     z-index: 10000;
 }
@@ -33,28 +29,17 @@ Estilos page loader
     right: 0;
     bottom: 0;
     margin: auto;
-    -webkit-animation: girar 0.8s linear infinite;
-    -o-animation: girar 0.8s linear infinite;
     animation: girar 0.8s linear infinite;
 }
 @keyframes girar {
     from{ transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
-
-/* 
-estilos
-*/
+/* FIN Estilos loader page */
+/* Estilos del PERFIL*/
 .perfil{
     background: url("../img/bg-2.jpg")no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-   
-}
-.fa{
-    margin:5px;
-    margin-bottom: -5px;
+    background-size: cover;
 }
 .avatar{
     max-width: 200px;
@@ -70,42 +55,27 @@ estilos
 	height:auto;
 }
 .imagengirar360:hover {
-	-webkit-transition:3.0s;
-    -webkit-transform:rotateX(720deg);
-}
-main{
-    background: #eeeeee;
+	transition:3.0s;
+    transform:rotateX(720deg);
 }
 hr{
     margin-top:-10px;
 }
-.fa-hashtag{
-    size: 50px;
-}
+/*FIN Estilos del PERFIL*/
+/* Estilos de las tarjetas*/
 .card{
     text-align: center;
     margin: 20px;
+    background:#FAFAFA;
 
 }
-.material-icons.md-18 {
-    font-size: 18px; color:#00695c;
-}
-.material-icons.md-24 {
-     font-size: 24px; color:#00695c;
-}
-.material-icons.md-36 {
-    font-size: 36px; color:#00695c; 
-}
-.material-icons.md-48 {
-    font-size: 48px; color:#00695c; 
-}
-
-/*ir arriba*/
+/*FIN Estilos de las tarjetas*/
+/*Ir arriba*/
 .arriba{
     display: inline-block;
     font-size: 25px;
     padding: 10px;
-    background: #00695c;
+    background:#009688;
     color: #ffffff;
     border-radius: 15%;
     position: fixed;
@@ -114,3 +84,15 @@ hr{
     z-index: 1000;
     cursor: pointer;
 }
+.arriba:hover{
+    background:#00BFA5;
+}
+/* FIN Ir arriba*/
+/* Estilos de proyectos*/
+.proyectos {
+    background: #EEEEEE;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
+/* FIN Estilos de proyectos*/
+/* FIN Estilos propios--Carlos Villera--Portafolio*/
