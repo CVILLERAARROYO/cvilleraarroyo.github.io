@@ -42,15 +42,15 @@ Estilos page loader
     to{transform: rotate(360deg);}
 }
 
-
 /* 
 estilos
 */
 .perfil{
-    background-image: url('../img/bg-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    background: url("../img/bg-2.jpg")no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
 }
 .fa{
     margin:5px;
