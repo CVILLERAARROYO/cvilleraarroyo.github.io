@@ -61,6 +61,7 @@
 hr{
     margin-top:-10px;
 }
+
 /*FIN Estilos del PERFIL*/
 /* Estilos de las tarjetas*/
 .card{
@@ -89,10 +90,14 @@ hr{
 }
 /* FIN Ir arriba*/
 /* Estilos de proyectos*/
-.proyectos {
+.proyectos,
+{
     background: #EEEEEE;
     margin-top: -45px;
     margin-bottom: -20px;
+}
+.fa{
+    margin:5px;
 }
 /* FIN Estilos de proyectos*/
 /* FIN Estilos propios--Carlos Villera--Portafolio*/
