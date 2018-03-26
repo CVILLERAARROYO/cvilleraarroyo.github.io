@@ -1,5 +1,6 @@
 /*Estilos propios--Carlos Villera--Portafolio*/
 /*Estilos loader page */
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
 *,
 :after,
 :before,{
@@ -7,6 +8,12 @@
     padding: 0;
     box-sizing: border-box;
     background: #eeeeee; 
+    
+}
+body{
+    font-family: 'Signika Negative', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 #contenedor{
     background: rgba(255, 255, 255, 0.99);
@@ -38,8 +45,9 @@
 /* FIN Estilos loader page */
 /* Estilos del PERFIL*/
 .perfil{
-    background: url("../img/bg-2.jpg")no-repeat fixed;
+    background: #334960;
     background-size: cover;
+    
 }
 .avatar{
     max-width: 200px;
@@ -68,6 +76,7 @@ hr{
     text-align: center;
     margin: 20px;
     background:#FAFAFA;
+    color: black;
 
 }
 /*FIN Estilos de las tarjetas*/
@@ -90,9 +99,10 @@ hr{
 }
 /* FIN Ir arriba*/
 /* Estilos de proyectos*/
-.proyectos,
+.proyectos
 {
-    background: #EEEEEE;
+    background: #009688;
+    color: #ffffff;
     margin-top: -45px;
     margin-bottom: -20px;
 }
