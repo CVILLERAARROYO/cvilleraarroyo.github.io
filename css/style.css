@@ -1,113 +1,70 @@
 /*Estilos propios--Carlos Villera--Portafolio*/
 /*Estilos loader page */
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative');
-*,
-:after,
-:before,{
+
+html,body{
+    font-family: 'Signika Negative', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #eeeeee; 
-    
 }
-body{
-    font-family: 'Signika Negative', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-}
-#contenedor{
-    background: rgba(255, 255, 255, 0.99);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    transition: all 1s;
-    z-index: 10000;
-}
-#cargar{
-    border: 15px solid rgb(231, 230, 230);
-    border-top-color:#78909C;
-    border-top-style: groove;
-    height: 90px;
-    width: 90px;
-    border-radius: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    animation: girar 0.8s linear infinite;
-}
-@keyframes girar {
-    from{ transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
-}
-/* FIN Estilos loader page */
-/* Estilos del PERFIL*/
-.perfil{
+/* section perfil */
+.header__perfil{
     background: #334960;
     background-size: cover;
-    
 }
 .avatar{
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 25em;
     border: solid #ffffff 2px;
-    margin-top: 100px;
-    margin-bottom: 4px;
     
 }
-.imagengirar360 {
-	width:auto;
-	height:auto;
+.avatar__title{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
-.imagengirar360:hover {
-	transition:3.0s;
-    transform:rotateX(720deg);
-}
-hr{
-    margin-top:-10px;
-}
+/* Fin section perfil */
+/* estilos loader page */
+#contenedor {
+  background: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: all 1s;
+  z-index: 10000; }
 
-/*FIN Estilos del PERFIL*/
-/* Estilos de las tarjetas*/
-.card{
-    text-align: center;
-    margin: 20px;
-    background:#FAFAFA;
-    color: black;
+#cargar {
+  border: 8px solid #eeeeee;
+  border-top-color:#334960;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: girar 250ms linear infinite; }
 
-}
-/*FIN Estilos de las tarjetas*/
-/*Ir arriba*/
-.arriba{
-    display: inline-block;
-    font-size: 25px;
-    padding: 10px;
-    background:#009688;
-    color: #ffffff;
-    border-radius: 15%;
-    position: fixed;
-    bottom: 25px;
-    left: 10px;
-    z-index: 1000;
-    cursor: pointer;
-}
-.arriba:hover{
-    background:#00BFA5;
-}
-/* FIN Ir arriba*/
-/* Estilos de proyectos*/
-.proyectos
-{
-    background: #009688;
-    color: #ffffff;
-    margin-top: -45px;
-    margin-bottom: -20px;
-}
-.fa{
-    margin:5px;
-}
-/* FIN Estilos de proyectos*/
+@keyframes girar {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/* FIN Estilos loader page */
+
+@media (max-width: 740px) {
+            .full-height,
+            .full-height body,
+            .full-height header,
+            .full-height header .view {
+                height: 700px;
+            }
+        }
 /* FIN Estilos propios--Carlos Villera--Portafolio*/
