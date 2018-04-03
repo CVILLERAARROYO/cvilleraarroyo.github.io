@@ -108,8 +108,8 @@ a:hover{
 /* Section about-me */
 /* Fin section about-me */
 .about{
-    background: #ffffff;
-    color: black;
+    background: #00897b;
+    color: #ffffff;
 }
 .about__title{
     font-size: 3rem;
