@@ -191,12 +191,5 @@ a:hover{
 .social-media i{
     color: #ffffff;
 }
-@media (max-width: 740px) {
-            .full-height,
-            .full-height body,
-            .full-height header,
-            .full-height header .view {
-                height: 700px;
-            }
-        }
+
 /* FIN Estilos propios--Carlos Villera--Portafolio*/
